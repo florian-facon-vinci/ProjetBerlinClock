@@ -2,9 +2,9 @@ export class Main{
 
 
     berlinClock(date){
-        var l1_1 = false;
+        var l1_1 = 0;
 
-        if(date === 1 ) l1_1 = !l1_1;
+        if(date ===  49) l1_1 = 1;
 
         return l1_1;
     } 

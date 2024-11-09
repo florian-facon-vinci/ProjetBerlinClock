@@ -9,6 +9,7 @@ describe("berlinClock function should return time", function (){
         const date = new Date();
         const result = main.berlinClock(date.getMinutes());
         
-         expect(result).toBe(true);
+         expect(result).toBe(1);
     });
+
 });
