@@ -12,6 +12,7 @@ export class Main{
         } 
 
         if(date === 2) {
+            l1_1 = 1;
             l1_2 = 1;
             return l1_2;
         }
