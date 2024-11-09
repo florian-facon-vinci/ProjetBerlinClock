@@ -12,4 +12,12 @@ describe("berlinClock function should return time", function (){
          expect(result).toBe(1);
     });
 
+    it("test minute 2 ",function (){
+        let main = new Main();
+
+        const date = new Date();
+        const result = main.berlinClock(date.getMinutes());
+        
+         expect(result).toBe(1);
+    });
 });
