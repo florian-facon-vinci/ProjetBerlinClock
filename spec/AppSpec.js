@@ -7,7 +7,7 @@ describe("berlinClock function should return time", function (){
         let main = new Main();
 
         const date = new Date();
-        const result = main.berlinClock(date.getMinutes());
+        const result = main.berlinClock(1);
         
          expect(result).toBe(1);
     });
@@ -16,7 +16,7 @@ describe("berlinClock function should return time", function (){
         let main = new Main();
 
         const date = new Date();
-        const result = main.berlinClock(date.getMinutes());
+        const result = main.berlinClock(2);
         
          expect(result).toBe(1);
     });
@@ -25,7 +25,7 @@ describe("berlinClock function should return time", function (){
         let main = new Main();
 
         const date = new Date();
-        const result = main.berlinClock(date.getMinutes());
+        const result = main.berlinClock(3);
         
          expect(result).toBe(1);
     });
