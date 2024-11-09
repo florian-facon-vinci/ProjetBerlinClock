@@ -29,4 +29,13 @@ describe("berlinClock function should return time", function (){
         
          expect(result).toBe(1);
     });
+
+    it("test minute 4 ",function (){
+        let main = new Main();
+
+        const date = new Date();
+        const result = main.berlinClock(4);
+        
+         expect(result).toBe(1);
+    });
 });
